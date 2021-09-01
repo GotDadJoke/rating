@@ -7,7 +7,7 @@ provider:
   region: us-east-1
   memorySize: 128 # optional, in MB, default is 1024
   timeout: 2 # optional, in seconds, default is 6
-  role: arn:aws:iam::894771629905:role/service-role/test-rating-role-7v0k3zvh # Overwrite the default IAM role which is used for all functions
+  role: arn:aws:iam::############:role/service-role/test-rating-role-7v0k3zvh # Overwrite the default IAM role which is used for all functions
 
 package:
   include:
